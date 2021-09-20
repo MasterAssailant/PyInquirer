@@ -40,7 +40,7 @@ setup(
     packages=find_packages(exclude=['docs', 'tests*']),
     include_package_data=True,
     author='MasterAssailant',
-    # download_url='https://github.com/MasterAssailant/PyInquirer/tree/list_order/archive/1.0.4.tar.gz',
+    download_url='https://github.com/CITGuru/PyInquirer/archive/1.0.3.tar.gz',
     install_requires=install_requires,
     dependency_links=dependency_links,
 )
