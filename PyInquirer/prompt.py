@@ -2,7 +2,7 @@
 
 from contextlib import contextmanager
 from . import PromptParameterException, prompts
-from .prompts import list, confirm, input, password, checkbox, rawlist, expand, editor
+from .prompts import list, confirm, input, password, checkbox, rawlist, expand, editor, list_order
 from prompt_toolkit.patch_stdout import patch_stdout as pt_patch_stdout
 from prompt_toolkit.shortcuts import PromptSession
 from prompt_toolkit.application import Application
